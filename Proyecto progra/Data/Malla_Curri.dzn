@@ -1,0 +1,124 @@
+% Use this editor as a MiniZinc scratch book
+Curricular = {
+Humanidades_I, 
+Deportes_I,
+Matematicas_Fundamentales, 
+Desarrollo_pensamiento_logico,
+Introduccion_informatica,
+Programacion_I,
+Calculo_diferencial,
+Fisica_I,
+Laboratorio_fisica_I,
+Humanidades_II,
+Programacion_II,
+Algebra_lineal, 
+Calculo_Integral, 
+Fisica_II,
+Laboratorio_fisica_II,
+Electiva_deportes_II,
+Calculo_multivariado, 
+Teoria_sistemas, 
+Estructura_datos,
+Fundamentos_electronica, 
+Laboratorio_electronica, 
+Programacion_III,
+Logica,
+Administracion_De_Empresas,
+Electronica_Digital,
+Laboratorio_De_Electronica_Digital,
+Ecuaciones_Diferenciales_Ordinarias,
+Estadistica,
+Gramatica_Y_Lenguajes_Formales,
+Fisica_III,
+Laboratorio_De_Fisica_III,
+Programacion_IV,
+Computacion_Grafica,
+Tecnicas_De_Comunicacion,
+Estadistica_Especial,
+Base_De_Datos_I,
+Arquitectura_De_Computadores,
+Sistemas_Operativos_I,
+Comunicaciones_I,
+Investigacion_De_Operaciones,
+Ingenieria_De_Software_I,
+Ingenieria_De_Software_II,
+Compiladores,
+Inteligencia_Artificial,
+Legislacion_Etica_Y_Contratacion,
+Gerencia_De_Proyectos,
+Sistemas_Distribuidos,
+Comunicaciones_II,
+Computacion_Blanda,
+Administracion_De_Proyectos_De_Software,
+Laboratorio_De_Software,
+Arquitectura_Cliente_Servidor,
+Auditoria_De_Sistemas,
+Comunicaciones_III,
+Proyecto_De_Grado_I,
+Emprendimiento,
+Constitucion_Politica,
+Proyecto_De_Grado_II,
+Administracion_De_Sistemas_De_Informacion
+};
+
+creditos = [
+  2,  % Humanidades_I
+  1,  % Deportes_I
+  3,  % Matematicas_Fundamentales
+  2,  % Desarrollo_pensamiento_logico
+  3,  % Introduccion_informatica
+  5,  % Programacion_I
+  3,  % Calculo_diferencial
+  4,  % Fisica_I
+  2,  % Laboratorio_fisica_I
+  2,  % Humanidades_II
+  4,  % Programacion_II
+  3,  % Algebra_lineal
+  4,  % Calculo_Integral
+  4,  % Física_II
+  2,  % Laboratorio_física_II
+  1,  % Electiva_deportes_II 
+  4,  % Calculo_multivariado
+  2,  % Teoría_sistemas
+  4,  % Estructura_datos
+  3,  % Fundamentos_electrónica
+  2,  % Laboratorio_electronica
+  3,  % Programacion_III
+  3,  % Logica
+  3,  % Administracion_De_Empresas
+  3,  % Electronica_Digital
+  2,  % Laboratorio_De_Electronica_Digital
+  3,  % Ecuaciones_Diferenciales_Ordinarias
+  2,  % Estadistica
+  4,  % Gramatica_Y_Lenguajes_Formales
+  4,  % Fisica_III
+  2,  % Laboratorio_De_Fisica_III
+  3,  % Programacion_IV
+  3,  % Computacion_Grafica
+  2,  % Tecnicas_De_Comunicacion
+  2,  % Estadistica_Especial
+  4,  % Base_De_Datos_I
+  4,  % Arquitectura_De_Computadores
+  4,  % Sistemas_Operativos_I
+  3,  % Comunicaciones_I
+  3,  % Investigacion_De_Operaciones
+  4,  % Ingenieria_De_Software_I
+  4,  % Ingenieria_De_Software_II
+  3,  % Compiladores
+  3,  % Inteligencia_Artificial
+  2,  % Legislacion_Etica_Y_Contratacion
+  3,  % Gerencia_De_Proyectos
+  3,  % Sistemas_Distribuidos
+  3,  % Comunicaciones_II
+  4,  % Computacion_Blanda
+  3,  % Administracion_De_Proyectos_De_Software
+  3,  % Laboratorio_De_Software
+  4,  % Arquitectura_Cliente_Servidor
+  3,  % Auditoria_De_Sistemas
+  3,  % Comunicaciones_III
+  2,  % Proyecto_De_Grado_I
+  3,  % Emprendimiento
+  1,  % Constitucion_Politica
+  6,  % Proyecto_De_Grado_II
+  3,  % Administracion_De_Sistemas_De_Informacion
+];

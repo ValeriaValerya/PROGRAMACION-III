@@ -1,0 +1,6 @@
+{
+  "agent": "extend_semestres",
+  "activated": true,
+  "note": "Extiende el número de semestres para administrar mejor la carga del agente base.",
+  "num_semestres": 12
+}

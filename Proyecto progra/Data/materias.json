@@ -1,0 +1,246 @@
+{
+  "Humanidades_I": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Deportes_I": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Matematicas_Fundamentales": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Desarrollo_pensamiento_logico": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Introduccion_informatica": {
+    "prereq": [],
+    "coreq": []
+  },
+
+  "Programacion_I": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Calculo_diferencial": {
+    "prereq": ["Matematicas_Fundamentales"],
+    "coreq": []
+  },
+  "Fisica_I": {
+    "prereq": ["Matematicas_Fundamentales"],
+    "coreq": []
+  },
+  "Laboratorio_fisica_I": {
+    "prereq": [],
+    "coreq": ["Fisica_I"]
+  },
+  "Humanidades_II": {
+    "prereq": ["Humanidades_I"],
+    "coreq": []
+  },
+
+  "Programacion_II": {
+    "prereq": ["Programacion_I"],
+    "coreq": []
+  },
+  "Algebra_lineal": {
+    "prereq": ["Matematicas_Fundamentales"],
+    "coreq": []
+  },
+  "Calculo_Integral": {
+    "prereq": ["Calculo_diferencial"],
+    "coreq": []
+  },
+  "Fisica_II": {
+    "prereq": ["Fisica_I", "Calculo_diferencial"],
+    "coreq": []
+  },
+  "Laboratorio_fisica_II": {
+    "prereq": [],
+    "coreq": ["Fisica_II"]
+  },
+  "Electiva_deportes_II": {
+    "prereq": ["Deportes_I"],
+    "coreq": []
+  },
+
+  "Calculo_multivariado": {
+    "prereq": ["Calculo_Integral"],
+    "coreq": []
+  },
+  "Teoria_sistemas": {
+    "prereq": ["Calculo_Integral", "Algebra_lineal"],
+    "coreq": []
+  },
+  "Estructura_datos": {
+    "prereq": ["Programacion_II"],
+    "coreq": []
+  },
+  "Fundamentos_electronica": {
+    "prereq": ["Fisica_II"],
+    "coreq": ["Laboratorio_electronica"]
+  },
+  "Laboratorio_electronica": {
+    "prereq": [],
+    "coreq": ["Fundamentos_electronica"]
+  },
+  "Programacion_III": {
+    "prereq": ["Programacion_II"],
+    "coreq": []
+  },
+  "Logica": {
+    "prereq": ["Desarrollo_pensamiento_logico", "Introduccion_informatica"],
+    "coreq": []
+  },
+  "Administracion_De_Empresas": {
+    "prereq": [],
+    "coreq": []
+  },
+
+  "Electronica_Digital": {
+    "prereq": ["Fundamentos_electronica"],
+    "coreq": ["Laboratorio_De_Electronica_Digital"]
+  },
+  "Laboratorio_De_Electronica_Digital": {
+    "prereq": [],
+    "coreq": ["Electronica_Digital"]
+  },
+  "Ecuaciones_Diferenciales_Ordinarias": {
+    "prereq": ["Calculo_Integral"],
+    "coreq": []
+  },
+  "Estadistica": {
+    "prereq": ["Calculo_Integral"],
+    "coreq": []
+  },
+  "Gramatica_Y_Lenguajes_Formales": {
+    "prereq": ["Estructura_datos", "Logica"],
+    "coreq": []
+  },
+  "Fisica_III": {
+    "prereq": ["Fisica_II", "Calculo_multivariado"],
+    "coreq": ["Laboratorio_De_Fisica_III"]
+  },
+  "Laboratorio_De_Fisica_III": {
+    "prereq": [],
+    "coreq": ["Fisica_III"]
+  },
+  "Programacion_IV": {
+    "prereq": ["Programacion_III", "Estructura_datos"],
+    "coreq": []
+  },
+  "Computacion_Grafica": {
+    "prereq": ["Electronica_Digital"],
+    "coreq": []
+  },
+
+  "Tecnicas_De_Comunicacion": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Estadistica_Especial": {
+    "prereq": ["Estadistica"],
+    "coreq": []
+  },
+  "Base_De_Datos_I": {
+    "prereq": ["Programacion_III", "Estructura_datos"],
+    "coreq": []
+  },
+  "Arquitectura_De_Computadores": {
+    "prereq": ["Electronica_Digital", "Programacion_IV"],
+    "coreq": []
+  },
+
+  "Sistemas_Operativos_I": {
+    "prereq": ["Arquitectura_De_Computadores"],
+    "coreq": []
+  },
+  "Comunicaciones_I": {
+    "prereq": ["Ecuaciones_Diferenciales_Ordinarias", "Teoria_sistemas"],
+    "coreq": []
+  },
+  "Investigacion_De_Operaciones": {
+    "prereq": ["Estadistica", "Algebra_lineal"],
+    "coreq": []
+  },
+  "Ingenieria_De_Software_I": {
+    "prereq": ["Base_De_Datos_I", "Programacion_IV"],
+    "coreq": []
+  },
+  "Ingenieria_De_Software_II": {
+    "prereq": ["Ingenieria_De_Software_I"],
+    "coreq": []
+  },
+  "Compiladores": {
+    "prereq": ["Gramatica_Y_Lenguajes_Formales"],
+    "coreq": []
+  },
+  "Inteligencia_Artificial": {
+    "prereq": ["Estadistica_Especial", "Investigacion_De_Operaciones"],
+    "coreq": []
+  },
+  "Legislacion_Etica_Y_Contratacion": {
+    "prereq": [],
+    "coreq": []
+  },
+  "Gerencia_De_Proyectos": {
+    "prereq": ["Administracion_De_Empresas"],
+    "coreq": []
+  },
+
+  "Sistemas_Distribuidos": {
+    "prereq": ["Sistemas_Operativos_I", "Comunicaciones_I"],
+    "coreq": []
+  },
+  "Comunicaciones_II": {
+    "prereq": ["Comunicaciones_I"],
+    "coreq": []
+  },
+  "Computacion_Blanda": {
+    "prereq": ["Inteligencia_Artificial"],
+    "coreq": []
+  },
+  "Administracion_De_Proyectos_De_Software": {
+    "prereq": ["Ingenieria_De_Software_II", "Gerencia_De_Proyectos"],
+    "coreq": []
+  },
+  "Laboratorio_De_Software": {
+    "prereq": ["Ingenieria_De_Software_II"],
+    "coreq": []
+  },
+  "Arquitectura_Cliente_Servidor": {
+    "prereq": ["Arquitectura_De_Computadores", "Base_De_Datos_I"],
+    "coreq": []
+  },
+  "Auditoria_De_Sistemas": {
+    "prereq": ["Ingenieria_De_Software_I"],
+    "coreq": []
+  },
+  "Comunicaciones_III": {
+    "prereq": ["Comunicaciones_II"],
+    "coreq": []
+  },
+  "Proyecto_De_Grado_I": {
+    "prereq": ["Ingenieria_De_Software_II", "Administracion_De_Proyectos_De_Software"],
+    "coreq": []
+  },
+  "Emprendimiento": {
+    "prereq": ["Gerencia_De_Proyectos"],
+    "coreq": []
+  },
+  "Constitucion_Politica": {
+    "prereq": [],
+    "coreq": []
+  },
+
+  "Proyecto_De_Grado_II": {
+    "prereq": ["Proyecto_De_Grado_I"],
+    "coreq": []
+  },
+  "Administracion_De_Sistemas_De_Informacion": {
+    "prereq": ["Arquitectura_Cliente_Servidor", "Sistemas_Distribuidos"],
+    "coreq": []
+  }
+}

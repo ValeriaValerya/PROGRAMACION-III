@@ -1,0 +1,11 @@
+{
+  "agent": "base_menor_igual",
+  "weights": {
+    "w_low": 5,
+    "w_no_vacios": 0,
+    "w_balance": 30
+  },
+  "target_creditos": 10,
+  "note": "Sesgo hacia semestres más livianos.",
+  "Filosofy": "Vida liviana"
+}

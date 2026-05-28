@@ -1,0 +1,11 @@
+{
+  "agent": "base",
+  "weights": {
+    "w_low": 20,
+    "w_no_vacios": 15,
+    "w_balance": 25
+  },
+  "target_creditos": 15,
+  "note": "Sesgo hacia semestres con mayor carga (evita semestres débiles).",
+  "Filosofy": "estructura intensa."
+}

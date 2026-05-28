@@ -1,0 +1,6 @@
+{
+  "agent": "base",
+  "activated": true,
+  "note": "Este agente activa balanceo de semestres al resolver la instancia.",
+  "target_creditos": 12
+}

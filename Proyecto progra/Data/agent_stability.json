@@ -1,0 +1,8 @@
+{
+  "agent": "stability",
+  "weights": {
+    "w_stability": 25,
+    "w_balance": 10
+  },
+  "note": "Agente que minimiza la variación entre semestres."
+}

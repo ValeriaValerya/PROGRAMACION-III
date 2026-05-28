@@ -1,0 +1,10 @@
+{
+  "agent": "minimizar",
+  "weights": {
+    "w_low": 10,
+    "w_no_vacios": 5,
+    "w_balance": 20
+  },
+  "target_creditos": 15,
+  "note": "Minimiza desviación global de carga entre semestres."
+}

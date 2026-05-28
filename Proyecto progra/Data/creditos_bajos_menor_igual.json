@@ -1,0 +1,6 @@
+{
+  "agent": "base_menor_igual",
+  "activated": true,
+  "note": "Este agente aplica la condición 'carga <= target_creditos' para balancear semestres.",
+  "target_creditos": 10
+}

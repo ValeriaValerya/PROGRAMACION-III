@@ -1,0 +1,10 @@
+status:
+  [+] agentes
+  [+] models
+  [+] data
+  [+] engine
+  [+] modelo
+  [+] malla
+  [+] materias
+agentes : 1
+materias: 59

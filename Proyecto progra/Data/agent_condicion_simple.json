@@ -1,0 +1,6 @@
+{
+  "agent": "accion_simple",
+  "condition": "materia_con_3_o_mas_prerrequisitos",
+  "result": false,
+  "matches": []
+}

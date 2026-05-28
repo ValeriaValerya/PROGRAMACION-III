@@ -1,0 +1,10 @@
+{
+  "agent": "low",
+  "weights": {
+    "w_low": 8,
+    "w_no_vacios": 20,
+    "w_balance": 25
+  },
+  "target_creditos": 12,
+  "note": "Sesgo hacia evitar semestres con baja carga (low credits bias)."
+}

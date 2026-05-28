@@ -1,0 +1,47 @@
+
+╔════════════════════════════════════════════════════════════╗
+║                    SALIDA GLOBAL                           ║
+╚════════════════════════════════════════════════════════════╝
+
+📌 PROYECTO: Programacion III - Sistema de Optimización
+📌 VERSIÓN: 1.0.0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STATUS DE COMPONENTES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ AGENTES: OK
+✓ MODELS: OK
+✓ DATA: OK
+✓ ENGINE: INICIALIZADO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESULTADOS CARGADOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 MODELOS CARGADOS: 1
+📊 DATOS DISPONIBLES: 0
+🤖 AGENTES CREADOS: 0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ESTRUCTURA DEL PROYECTO:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Programacion III/
+├── 📁 Agentes/          OK
+├── 📁 Models/           OK
+├── 📁 Data/             OK
+├── 📁 engine/           INICIALIZADO
+└── 📄 PlanGlobal.py     ← COORDINADOR CENTRAL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRÓXIMOS PASOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ejecutar soluciones con los agentes
+2. Procesar datos con los modelos
+3. Generar salidas finales
+
+╔════════════════════════════════════════════════════════════╗
+║              FIN DEL REPORTE DE SALIDA                     ║
+╚════════════════════════════════════════════════════════════╝
