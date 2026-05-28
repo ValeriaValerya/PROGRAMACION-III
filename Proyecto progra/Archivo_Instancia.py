@@ -58,6 +58,14 @@ elif usar_agente_base and BASE_AGENT_FILE.exists():
     with open(BASE_AGENT_FILE, encoding="utf-8") as f:
         data = json.load(f)
         target_creditos = data.get("target_creditos", target_creditos)
+elif usar_stability and BASE_AGENT_BALANCE_FILE.exists():
+    with open(BASE_AGENT_BALANCE_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+        target_creditos = data.get("target_creditos", target_creditos)
+elif usar_low_penalitation and LOW_AGENT_FILE.exists():
+    with open(LOW_AGENT_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+        target_creditos = data.get("target_creditos", target_creditos)
 
 print("=== Configuración de agentes ===")
 print(f"Agentes seleccionados: {selected_agents}")
