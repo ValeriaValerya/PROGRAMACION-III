@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+# Intentamos importar minizinc, si no está instalado, mostramos un mensaje de error y salimos.
 BASE = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE / "Data"
 OUTPUT_JSON = DATA_DIR / "agent_base.json"
@@ -18,7 +19,7 @@ resultado = {
     "note": "Sesgo hacia semestres con mayor carga (evita semestres débiles).",
     "Filosofy": "estructura intensa."
      }
-
+# Guardamos el resultado en un archivo JSON para su posterior análisis o uso.
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     json.dump(resultado, f, indent=2, ensure_ascii=False)
 
