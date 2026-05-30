@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Intentamos importar minizinc, si no está instalado, mostramos un mensaje de error y salimos.
 BASE = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE / "Data"
+DATA_DIR = BASE / "Data"                    # Directorio para almacenar los archivos de datos y resultados
 OUTPUT_JSON = DATA_DIR / "agent_base.json"
 
 OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
