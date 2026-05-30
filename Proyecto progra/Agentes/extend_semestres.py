@@ -21,6 +21,7 @@ def main() -> None:
         "num_semestres": NUM_SEMESTRES,
     }
 
+# para evitar errores de directorio, nos aseguramos de que el directorio exista antes de escribir el archivo.
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(resultado, f, indent=2, ensure_ascii=False)
@@ -28,6 +29,6 @@ def main() -> None:
     print("Agente extend_semestres ejecutado.")
     print(f"Resultado guardado en: {OUTPUT_FILE}")
 
-
+# Ejecutamos el agente si este script es ejecutado directamente.
 if __name__ == "__main__":
     main()
